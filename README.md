@@ -27,3 +27,8 @@ Its super simple:
 - creates a new HTML-file (fuckyoutube.html)
 - embeds the youtube video into that file
 - calls firefox to **open** that HTML-file
+
+## Things that could be better with this:
+- Windows support
+- Default-Browser support
+- dicrectly tell the browser to open the link: https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ

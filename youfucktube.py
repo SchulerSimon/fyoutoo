@@ -1,6 +1,5 @@
 # /bin/python3
 
-import time
 import subprocess
 
 try:
@@ -12,15 +11,18 @@ except (ImportError, ImportWarning) as e:
     exit(1)
 
 
-video_embedded_url = (
-    '<iframe width="560" height="315" '
-    + 'src="www.youtube-nocookie.com/embed/{video_id}" '
-    + 'title="YouTube video player" frameborder="0" '
-    + 'allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; '
-    + 'picture-in-picture; web-share" allowfullscreen></iframe>'
-)
+HTML = """<!DOCTYPE html>
+<html>
+<head>
+<title>YouFuckTube</title>
+</head>
+<body>
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/{video_id}" title="YouFuckTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+</body>
+</html> 
+"""
 
-temp_file_name = "fuckyoutube.html"
+file_name = "fuckyoutube.html"
 
 
 def main():
@@ -35,22 +37,22 @@ def main():
     video_id: str = video_url.split("?v=")[1]
     video_id: str = video_id.split("&")[0]
 
-    file_content = ""
+    file_content = HTML.format(video_id=video_id)
 
-    try:
-        with open(temp_file_name, "r") as f:
-            file_content = f.read()
-    except FileNotFoundError:
-        pass
-
-    file_content = video_embedded_url.format(video_id=video_id) + "\n" + file_content
-
-    with open(temp_file_name, "w") as f:
+    with open(file_name, "w") as f:
         f.write(file_content)
 
-    subprocess.Popen(["firefox", temp_file_name])
-    time.sleep(1)
+    open_brwoser(file_name)
     exit(1)
+
+
+def open_brwoser(file):
+    try:
+        subprocess.Popen(["firefox", file])
+    except Exception:
+        print(
+            f'Could not open firefox. Doubleklick the "{file_name}" file to view the Video.'
+        )
 
 
 if __name__ == "__main__":
