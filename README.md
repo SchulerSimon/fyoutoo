@@ -16,7 +16,7 @@
 - clone this repo: 
     - `git clone https://github.com/SchulerSimon/youfucktube.git`
 - copy the URL of a youtube-video
-    - example: ["https://www.youtube.com/watch?v=dQw4w9WgXcQ"](https://www.youtube.com/watch?v=dQw4w9WgXcQ)
+    - example: `https://www.youtube.com/watch?v=dQw4w9WgXcQ`
 - execute the script: 
     - `cd youfucktube`
     - `python3 youfucktube.py`
