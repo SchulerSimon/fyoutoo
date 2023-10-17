@@ -48,7 +48,9 @@ def main():
 
 def open_brwoser(file):
     try:
-        subprocess.Popen(["firefox", file])
+        subprocess.Popen(
+            ["firefox", file], stdin=None, stdout=None, stderr=None, close_fds=True
+        )
     except Exception:
         print(
             f'Could not open firefox. Doubleklick the "{file_name}" file to view the Video.'
