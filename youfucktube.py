@@ -1,6 +1,4 @@
-# /bin/python3
-
-import webbrowser
+import src.youfucktube as youfucktube
 
 try:
     import pyperclip
@@ -10,34 +8,18 @@ except (ImportError, ImportWarning) as e:
     )
     exit(1)
 
-embed_link = "https://www.youtube-nocookie.com/embed/{video_id}"
-
-file_name = "fuckyoutube.html"
-
 
 def main():
     video_url: str = pyperclip.paste()
 
-    if "www.youtube.com/watch" not in video_url:
+    try:
+        video_id: str = youfucktube.extract_video_id(video_url)
+    except ValueError:
         print("Please copy the Video URL into the Clipboard.")
         exit(1)
 
-    video_id: str = video_url.split("?v=")[1]
-    video_id: str = video_id.split("&")[0]
-
-    link = embed_link.format(video_id=video_id)
-
-    open_browser(link)
-    exit(0)
-
-
-def open_browser(url: str):
-    try:
-        # tries to open a new tab instead of a new window
-        webbrowser.get().open(url=url, new=2)
-    except Exception:
-        print(f"Could not open default browser. Here is your link: {url}")
-        exit(1)
+    link = youfucktube.create_link(video_id)
+    youfucktube.open_browser(link)
 
 
 if __name__ == "__main__":
