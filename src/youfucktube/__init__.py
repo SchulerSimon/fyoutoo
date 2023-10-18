@@ -2,8 +2,6 @@
 
 import webbrowser
 
-embed_link = "https://www.youtube-nocookie.com/embed/{video_id}"
-
 
 def extract_video_id(video_url: str) -> str:
     """takes a youtube url and extracts the video_id
@@ -34,6 +32,7 @@ def create_link(video_id: str) -> str:
     Returns:
         str: a link to an embedded version of the video
     """
+    embed_link = "https://www.youtube-nocookie.com/embed/{video_id}"
     link = embed_link.format(video_id=video_id)
     return link
 
