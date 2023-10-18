@@ -6,7 +6,7 @@ try:
     import pyperclip
 except (ImportError, ImportWarning) as e:
     print(
-        "Install pip packange pyperclip for this programm to work: 'pip3 install pyperclip'"
+        "Install pip packange pyperclip for this programm to work: 'pip install pyperclip'"
     )
     exit(1)
 
