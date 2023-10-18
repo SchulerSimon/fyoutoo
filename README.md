@@ -3,14 +3,14 @@
 ## Tired of this?
 ![YouFuckTube-Adblock-blcoker](adblock-blocker.png)
 
-## Here is your solution: 
+# Here is your solution! 
 
-## What do I need to do?
+## What do you need to do?
 
-- use **Linux**! 
-    - Maybe one of you wants to add Windows support?!
 - install [Pyhton3](https://www.python.org/downloads/): 
-    - `sudo apt install python3.12` 
+    - Linux: `sudo apt install python3.12` 
+    - Windows: click [here](https://www.python.org/downloads/)
+    - MacOS: click [here](https://www.python.org/downloads/)
 - install [pyperclip](https://pypi.org/project/pyperclip/):
     - `pip install pyperclip`
 - clone this repo: 
@@ -19,16 +19,19 @@
     - `https://www.youtube.com/watch?v=dQw4w9WgXcQ`
 - execute the script: 
     - `cd youfucktube`
-    - `python3 youfucktube.py`
+    - `python youfucktube.py` or `python3 youfucktube.py`
 
 ## How dose it work?
-Its super simple: 
-- **copies** a youtube-link from your **clipboard**
-- creates a new HTML-file (fuckyoutube.html)
-- embeds the youtube video into that file
-- calls firefox to **open** that HTML-file
+Its super simple: *YouTube's AdBlock-Block only works on their website. When you embed a Video into another website, you can watch it just fine. This script basically automates that process.* 
 
-## Things that could be better with this:
-- Windows support
-- Default-Browser support
-- dicrectly tell the browser to open the link: https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ
+- **copies** a youtube-link from your **clipboard**
+- extracts the `video_id` from the link 
+- creates a new link (like so `https://www.youtube-nocookie.com/embed/<video_id>`)
+- calls the system-default browser to open this link and brings the browser to the front
+
+## Things that could be improved:
+- test MacOS, I cannot, have no mac. 
+- build into standalone executable
+- try multiple browsers, when `webbrowser.get().open(link)` fails
+
+PRs are welcome!
