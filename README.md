@@ -35,6 +35,10 @@ Its super simple: *YouTube's AdBlock-Block only works on their website. When you
 - build into standalone executable
 - try multiple browsers, when `webbrowser.get().open(link)` fails
 
+
+## How to write extension for youfucktube?
+- Have a look at this [example](extension_example_youfucktube.py). 
+
 PRs are welcome!
 
 
