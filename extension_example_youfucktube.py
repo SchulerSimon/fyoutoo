@@ -1,7 +1,7 @@
 # This file gives an example on how to extend youfucktube
 # it just uses a given video_url as example
 
-from . import youfucktube
+import src.youfucktube as youfucktube
 
 
 def main():
