@@ -19,7 +19,8 @@
     - `https://www.youtube.com/watch?v=dQw4w9WgXcQ`
 - execute the script: 
     - `cd youfucktube`
-    - `python youfucktube.py` or `python3 youfucktube.py`
+    - CLI: `python youfucktube.py` or `python3 youfucktube.py`
+    - GUI: `python youfucktubegui.py`
 
 ## How dose it work?
 Its super simple: *YouTube's AdBlock-Block only works on their website. When you embed a Video into another website, you can watch it just fine. This script basically automates that process.* 
@@ -35,3 +36,7 @@ Its super simple: *YouTube's AdBlock-Block only works on their website. When you
 - try multiple browsers, when `webbrowser.get().open(link)` fails
 
 PRs are welcome!
+
+
+### Contributions: 
+- Thanks to [MadaHaz](https://github.com/MadaHaz) there is also a Version with a GUI. 
