@@ -20,7 +20,7 @@
 - execute the script: 
     - `cd youfucktube`
     - CLI: 
-      - Dose it once, needs to be executed after each time after you copy a youtube-url.
+      - Dose it once, needs to be executed each time you copy a youtube-url.
       - `python youfucktube.py`
     - GUI: 
       - Provides a Graphical User Interface you can interact with. 
@@ -51,4 +51,4 @@ PRs are welcome!
 
 ### Contributions: 
 - Thanks to [MadaHaz](https://github.com/MadaHaz) there is also a Version with a GUI. 
-- Thanks to the Idea of [granlem](https://github.com/granlem), there is also a Version that runs in the background like a Service. 
+- Thanks to the Idea of [granlem](https://github.com/granlem), there is also a Version that runs in the background like a service. 

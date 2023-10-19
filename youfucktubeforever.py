@@ -1,5 +1,4 @@
 import time
-
 import src.youfucktube as youfucktube
 
 try:
