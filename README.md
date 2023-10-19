@@ -19,8 +19,15 @@
     - `https://www.youtube.com/watch?v=dQw4w9WgXcQ`
 - execute the script: 
     - `cd youfucktube`
-    - CLI: `python youfucktube.py` or `python3 youfucktube.py`
-    - GUI: `python youfucktubegui.py`
+    - CLI: 
+      - Dose it once, needs to be executed after each time after you copy a youtube-url.
+      - `python youfucktube.py`
+    - GUI: 
+      - Provides a Graphical User Interface you can interact with. 
+      - `python youfucktubegui.py`
+    - SERVICE:
+      - Runs in the background. Just start the script once. And every time you copy a youtube-url, it should open a new window in the browser. 
+      - `python youfucktubeforever.py`
 
 ## How dose it work?
 Its super simple: *YouTube's AdBlock-Block only works on their website. When you embed a Video into another website, you can watch it just fine. This script basically automates that process.* 
@@ -44,3 +51,4 @@ PRs are welcome!
 
 ### Contributions: 
 - Thanks to [MadaHaz](https://github.com/MadaHaz) there is also a Version with a GUI. 
+- Thanks to the Idea of [granlem](https://github.com/granlem), there is also a Version that runs in the background like a Service. 
