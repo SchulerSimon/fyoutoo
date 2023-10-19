@@ -38,15 +38,22 @@ Its super simple: *YouTube's AdBlock-Block only works on their website. When you
 - calls the system-default browser to open this link and brings the browser to the front
 
 ## Things that could be improved:
+- make this whole thing more accessible
+  - make the script explain itself better via textoutput
+  - build into standalone executable for major platforms
+  - polish the GUI-Version a bit
 - test MacOS, I cannot, have no mac. 
-- build into standalone executable
+- make gui-version that runs as a service
 - try multiple browsers, when `webbrowser.get().open(link)` fails
+- en-/disable service script with hotkey(s)
+- do some SEO, so that this repo is more easily found via google/bing/duckduckgo etc. 
+- think of/design a logo
 
+Any ideas, designs and PRs are welcome!
 
-## How to write extension for youfucktube?
+## Have your own idea? How to write extension for youfucktube?
 - Have a look at this [example](extension_example_youfucktube.py). 
 
-PRs are welcome!
 
 
 ### Contributions: 
