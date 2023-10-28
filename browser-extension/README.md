@@ -2,7 +2,7 @@
 Simply replaces the youtube video by embedded one. 
 
 ## Quick start using uploaded version
-Install browser extension from GitHub [releases](/granlem/youfucktube/releases/latest)
+Install browser extension from GitHub [releases](https://github.com/granlem/youfucktube/releases/latest)
 
 ## Quick start using repository
 1. Clone repository
