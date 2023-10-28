@@ -20,7 +20,15 @@
 		}
 		// Check if player is still there
 		if (!document.getElementById("youfucktube-player")) {
-			document.getElementById("movie_player").innerHTML = `<iframe id="youfucktube-player" style="border-left: 2px solid darkred; width: 100%; height: 100%;" src="https://www.youtube.com/embed/` + v + `" title="YouFuckTubePlayer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
+                        let iframe = document.createElement('iframe');
+                        iframe.id = "youfucktube-player";
+                        iframe.style = "border-left: 2px solid darkred; width: 100%; height: 100%;";
+                        iframe.title="YouFuckTubePlayer";
+                        iframe.frameborder="0";
+                        iframe.allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share";
+                        iframe.allowfullscreen = "1";
+                        iframe.src = "https://www.youtube.com/embed/" + v;
+			document.getElementById("movie_player").innerHTML = iframe.outerHTML;
 		}
 
 	}, 1000);
