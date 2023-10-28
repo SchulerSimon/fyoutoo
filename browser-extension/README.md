@@ -17,8 +17,7 @@ Install browser extension from GitHub [releases](https://github.com/granlem/youf
 - Android für Firefox Version >= 120.0a1
 - Google Chome (untested)
 - Microsoft Edge (untested)
+- Opera (tested)
 
 ## Known bugs
-- Pages are reloaded even if normal youtube do not requires to (hotfix)
-- Ad-Free Player appears only after ~1s
-- If video is started before the ad-free player is loaded, the video runs in background (->reload page)
+- Ad-Free Player appears only after ~500ms
