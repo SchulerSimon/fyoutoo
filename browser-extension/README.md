@@ -2,7 +2,7 @@
 Simply replaces the youtube video by embedded one. 
 
 ## Quick start using uploaded version
-Install browser extension from GitHub releases <releases/latest>
+Install browser extension from GitHub [releases](releases/latest)
 
 ## Quick start using repository
 1. Clone repository
