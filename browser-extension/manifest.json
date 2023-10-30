@@ -1,0 +1,16 @@
+{
+    "content_scripts": [{
+        "all_frames": true,
+        "js": [ "content.js" ],
+        "matches": [ "https://www.youtube.com/*" ]
+    }],
+    "manifest_version": 3,
+    "name": "Youfucktube",
+    "version": "0.0.4",
+    "browser_specific_settings": {
+      "gecko": {
+        "id": "{70c1ae1e-c90c-4a9a-825c-2ad1d204d951}"
+      }
+    }
+
+}
