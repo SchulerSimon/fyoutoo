@@ -5,6 +5,9 @@
 
 # Here is your solution! 
 
+***<h2>For the Browser extension have a look at [browser-extension](./browser-extension/README.md)</h2>*** 
+
+
 ## What do you need to do?
 
 - install [Pyhton3](https://www.python.org/downloads/): 
@@ -59,3 +62,4 @@ Any ideas, designs and PRs are welcome!
 ### Contributions: 
 - Thanks to [MadaHaz](https://github.com/MadaHaz) there is also a Version with a GUI. 
 - Thanks to the Idea of [granlem](https://github.com/granlem), there is also a Version that runs in the background like a service. 
+- Thanks to [granlem](https://github.com/granlem), we now have a browser extension for major browsers that uses this concept and is easier to use. Look [here](./browser-extension/README.md)
