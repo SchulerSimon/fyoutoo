@@ -1,4 +1,4 @@
-![YouFuckTube-Adblock-blocker-logo](Ad-blocker-logo-v1.1.png)
+<img src="Ad-blocker-logo-v1.1.png" alt="Ad-blocker-logo" width="150"/>
 
 # YouFuckTube - UNBLOCK YOUTUBE ADBLOCK-BLOCK
 
