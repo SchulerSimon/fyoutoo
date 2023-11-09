@@ -1,3 +1,5 @@
+![YouFuckTube-Adblock-blocker-logo](Ad-blocker-logo-v1.1.png)
+
 # YouFuckTube - UNBLOCK YOUTUBE ADBLOCK-BLOCK
 
 ## Tired of this?
@@ -67,4 +69,4 @@ Any ideas, designs and PRs are welcome!
 
 
 
-![YouFuckTube-Adblock-blocker-logo](Ad-blocker-logo-v1.1.png)
+
