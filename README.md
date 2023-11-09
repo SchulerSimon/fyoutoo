@@ -67,4 +67,4 @@ Any ideas, designs and PRs are welcome!
 
 
 
-![YouFuckTube-Adblock-blocker-logo](Shattered_Web.png)
+![YouFuckTube-Adblock-blocker-logo](Ad-blocker-logo-v1.1.png)
