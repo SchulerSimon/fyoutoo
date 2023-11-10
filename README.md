@@ -1,3 +1,5 @@
+<img src=Ad-blocker-logo-v1.1.png width=170></img> 
+
 # YouFuckTube - UNBLOCK YOUTUBE ADBLOCK-BLOCK
 
 ## Tired of this?
@@ -63,8 +65,4 @@ Any ideas, designs and PRs are welcome!
 - Thanks to [MadaHaz](https://github.com/MadaHaz) there is also a Version with a GUI. 
 - Thanks to the Idea of [granlem](https://github.com/granlem), there is also a Version that runs in the background like a service. 
 - Thanks to [granlem](https://github.com/granlem), we now have a browser extension for major browsers that uses this concept and is easier to use. Look [here](./browser-extension/README.md)
-
-
-
-
-![YouFuckTube-Adblock-blocker-logo](Ad-blocker-logo-v1.1.png)
+- Thanks to [4robrob](https://github.com/4robrob), we now have a logo. 
