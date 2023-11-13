@@ -1,9 +1,9 @@
 <img src=Ad-blocker-logo-v1.1.png width=170></img> 
 
-# YouFuckTube - UNBLOCK YOUTUBE ADBLOCK-BLOCK
+# FYouToo - UNBLOCK YOUTUBE ADBLOCK-BLOCK
 
 ## Tired of this?
-![YouFuckTube-Adblock-blcoker](adblock-blocker.png)
+![FYouToo-Adblock-blcoker](adblock-blocker.png)
 
 # Here is your solution! 
 
