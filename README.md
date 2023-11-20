@@ -1,4 +1,4 @@
-<img src=FYouToo_logo.png width=170></img> 
+<img src=FYouToo_logo.png width=550></img> 
 
 # FYouToo - UNBLOCK YOUTUBE ADBLOCK-BLOCK
 
