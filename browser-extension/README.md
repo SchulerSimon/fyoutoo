@@ -1,4 +1,4 @@
-# YouFuckTube - UNBLOCK YOUTUBE ADBLOCK-BLOCK Browser Extension
+# FYouToo - UNBLOCK YOUTUBE ADBLOCK-BLOCK Browser Extension
 Simply replaces the youtube video by embedded one. 
 
 ## Quick start using uploaded version
